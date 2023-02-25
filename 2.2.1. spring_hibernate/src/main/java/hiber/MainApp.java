@@ -24,6 +24,10 @@ public class MainApp {
       Car jeep = new Car("Jeep", 1);
       Car vaz = new Car("Vaz",7);
 
+      userService.addCar(ford);
+      userService.addCar(jeep);
+      userService.addCar(vaz);
+
       user1.setCar(ford);
       user2.setCar(jeep);
       user3.setCar(vaz);
